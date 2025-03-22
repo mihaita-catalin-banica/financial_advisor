@@ -1,6 +1,11 @@
 from flask import Flask, render_template, jsonify
 import json
 import os
+from file1 import processInput
+from file2 import createTable
+
+processInput()
+createTable()
 
 app = Flask(__name__)
 
