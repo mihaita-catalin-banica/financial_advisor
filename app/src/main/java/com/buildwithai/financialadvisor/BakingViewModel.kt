@@ -21,7 +21,7 @@ class BakingViewModel : ViewModel() {
         modelName = "gemini-1.5-flash",
         apiKey = BuildConfig.apiKey
     )
-
+#comentariu
     fun sendPrompt(
         bitmap: Bitmap,
         prompt: String
